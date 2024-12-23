@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - ShopG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(218, 216, 216, 0.7);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .popup-container {
+            background-color: #0c0c0c;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .popup-container h1 {
+            color: #f57c00;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .popup-container p {
+            color: #dfdcdc;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .popup-container button {
+            background-color: #f57c00;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .popup-container button:hover {
+            background-color: #e66a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup-container">
+        <h1>Order Confirmed!</h1>
+        <p>Thank you for your purchase! Your order has been placed successfully.</p>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+</body>
+</html>
